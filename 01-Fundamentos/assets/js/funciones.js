@@ -40,3 +40,26 @@ saludarFlecha2();
 const saludarFlecha3 = ( nombre ) => {console.log('Hola ' + nombre)};
 
 saludarFlecha3('DIEGOSH');
+
+// **** FUNCIONES CON RETURN ****
+function sumar (a, b) {
+    return a+b;
+}
+
+console.log(sumar (1,2));
+
+// **** FUNCIONES CON RETURN EN FLECHA ****
+const sumar2 = (a,b) => a+b;
+
+console.log(sumar2(2,2));
+
+// mas ejemplos
+function getAleatorio() {
+    return Math.random();
+}
+
+console.log(getAleatorio());
+
+const getAleatorio2 = () => Math.random();
+
+console.log(getAleatorio2());
