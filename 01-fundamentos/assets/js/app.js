@@ -15,4 +15,9 @@ const saludo = c + d;
     // console.log ( { c } );
 
     // console.table({a,b,c,d,x});
-    console.log(saludo);
+    // console.log(saludo);
+
+    // let outerWidth = 1000000;
+    // const outherHeight = 600;
+
+    // let miNuevoNombre = 'Diegosh';
