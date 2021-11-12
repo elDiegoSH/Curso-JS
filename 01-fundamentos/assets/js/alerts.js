@@ -12,5 +12,5 @@
 // *** Confirm ***
 // confirm('¿Quieres borra esto?');
 
-const seleccion = confirm('¿Quieres borra esto?');
+const seleccion = confirm('¿Quieres borrar esto?');
 console.log(seleccion);
