@@ -1,5 +1,5 @@
 
-let personaje = {
+const personaje = {
     nombre: 'Tony Stark',
     codeName: 'Iron man',
     vivo: false,
@@ -33,3 +33,30 @@ console.log('Vivo', personaje[x]);
 
 console.log('Ultima pelicula', personaje.ultimaPelicula);
 
+// Mas detalles de objetos literales
+
+// para borrar un propiedad del objeto literal
+delete personaje.edad;
+console.log(personaje);
+
+personaje.casado = true;
+
+// para mostrar como arreglo
+const entriesPares = Object.entries(personaje);
+console.log(entriesPares);
+
+// personaje = true;
+
+// hacer bloqueo de las propiedades del objeto
+Object.freeze(personaje);
+
+personaje.dinero = 1000000000;
+personaje.casado = false;
+personaje.direccion.ubicacion = 'Costa Rica';
+
+console.log(personaje);
+
+// listado de propiedades de ese objeto
+const  propiedades = Object.getOwnPropertyNames(personaje);
+const  valores = Object.values(personaje);
+console.log({propiedades, valores});
