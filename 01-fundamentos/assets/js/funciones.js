@@ -34,3 +34,33 @@ const saludarFlecha2 = (nombre) => {
 }
 
 saludarFlecha2('flecha');
+
+function sumar(a,b){
+    return a + b;
+}
+
+console.log(sumar(1,2));
+
+
+// Cambiar a funcion de flecha
+// const sumar2 = (a,b) => {
+//     return a + b;
+// }
+
+// Se puede simplificar asi:
+const sumar2 = (a,b) => a + b;
+
+console.log(sumar2(3,2));
+
+function getAleatorio() {
+    return Math.random();
+}
+
+console.log(getAleatorio());
+
+// ejercicio: convertir la funcion de arriba n funcion de flecha que no tenga llaves
+
+const getAleatorio2 = () => Math.random();
+
+console.log(getAleatorio2());
+
